@@ -99,7 +99,7 @@ init(userId)
 {
      const peer = new Peer(userId,{
         host: 'mhs-peerj-sserver.azurewebsites.net',
-        port : 80,
+        port : 443,
         path: 'peerjs'
     });
     peer.on('open',()=>{
